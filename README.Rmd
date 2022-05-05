@@ -23,7 +23,7 @@ The goal of ncbitaxids is to provide a simple interface for accessing complete l
 
 ## Installation
 
-You can install the ncbitaxids from [GitHub](https://github.com/) with:
+You can install the ncbitaxids from [GitHub](https://github.com/selkamand/ncbitaxids) with:
 
 ``` r
 # install.packages("devtools")
@@ -41,7 +41,7 @@ taxids_available_lists()
 
 To load one of these lists, run `taxids_load_list("name_of_taxid_list")` again but with one of the available taxid lists specified
 
-```{r load taxid list, eval=FALSE, include=FALSE}
+```{r load taxid list, eval=FALSE, echo=T, results='hide'}
 taxids_load_list("all_bacterial_taxids.05_05_2022")
 ```
 

@@ -15,7 +15,8 @@ bacteria, fungi, viruses, etc
 
 ## Installation
 
-You can install the ncbitaxids from [GitHub](https://github.com/) with:
+You can install the ncbitaxids from
+[GitHub](https://github.com/selkamand/ncbitaxids) with:
 
 ``` r
 # install.packages("devtools")
@@ -37,3 +38,7 @@ taxids_available_lists()
 
 To load one of these lists, run `taxids_load_list("name_of_taxid_list")`
 again but with one of the available taxid lists specified
+
+``` r
+taxids_load_list("all_bacterial_taxids.05_05_2022")
+```
